@@ -1,0 +1,82 @@
+[
+  {
+    "query": "我們是做冷凍水餃的中小企業, 最近某大賣場通路要我們多給 8% 通路費, 不給就下架. 那個通路占我們營收快四成, 我很猶豫要不要硬起來.",
+    "should_trigger": true
+  },
+  {
+    "query": "競爭對手上個月挖走我們兩個業務主管, 連帶帶走幾個客戶. 我現在超想也去挖他們的人, 讓他們嚐嚐看這種感覺",
+    "should_trigger": true
+  },
+  {
+    "query": "我是營運長. 老闆想明年進軍日本市場, 可是我們連台灣北部都還沒站穩, 我覺得怪怪的但講不出具體哪裡不對",
+    "should_trigger": true
+  },
+  {
+    "query": "用孫子兵法幫我想一下: 我們的記帳 app 被一家大廠直接抄了核心功能, 要打官司還是專心繼續做產品?",
+    "should_trigger": true
+  },
+  {
+    "query": "Our 8-person design agency just lost our biggest retainer client to a cheaper competitor. Half the team wants to cut our rates across the board. I'm not sure that's right. thoughts?",
+    "should_trigger": true
+  },
+  {
+    "query": "公司營收每年成長三成, 可是現金一直很緊. 董事會要我明年再開 5 家分店, 我心裡有點不安",
+    "should_trigger": true
+  },
+  {
+    "query": "商場如戰場啦, 對手最近一直在網路上酸我們的品牌, 還找人帶風向. 我是不是應該正面回擊?",
+    "should_trigger": true
+  },
+  {
+    "query": "我們跟上游原料廠談了半年的合資設廠, 簽約前對方突然要求 51% 股權. 不給可能就破局, 給了又怕以後什麼都他說了算",
+    "should_trigger": true
+  },
+  {
+    "query": "我們是地方型的連鎖洗衣店, 有 9 家. 聽說一個外資洗衣品牌明年要進台中, 資金很雄厚, 我有點慌",
+    "should_trigger": true
+  },
+  {
+    "query": "孫子說知彼知己, 但我根本不知道對手在想什麼. 他這個月降價 15%, 我要怎麼判斷該不該跟?",
+    "should_trigger": true
+  },
+  {
+    "query": "孫子兵法的作者到底是孫武還是孫臏? 我看到銀雀山出土兩本, 差別在哪裡",
+    "should_trigger": false
+  },
+  {
+    "query": "幫我算一下 Q3 的毛利率跟淨利率: 營收 1200 萬, 銷貨成本 870 萬, 營業費用 210 萬, 另外幫我做成表格",
+    "should_trigger": false
+  },
+  {
+    "query": "幫我寫一篇 LinkedIn 貼文, 主題是 '用孫子兵法做專案管理的 5 個技巧', 大概 500 字, 語氣專業一點",
+    "should_trigger": false
+  },
+  {
+    "query": "在玩全面戰爭三國, 開局選劉備, 前 30 回合要先打誰比較好? 我每次都被曹操推平",
+    "should_trigger": false
+  },
+  {
+    "query": "下週要面試產品經理, 面試官可能會問 '講一次你跟其他部門起衝突的經驗', 幫我準備一個 STAR 格式的回答",
+    "should_trigger": false
+  },
+  {
+    "query": "我們公司下季要導入 OKR, 大概 80 個人. 幫我設計一套季度目標設定跟追蹤的流程, 包含時程表",
+    "should_trigger": false
+  },
+  {
+    "query": "這份經銷合約第 12 條寫 '乙方違約時應給付合約總金額三倍之懲罰性違約金', 這樣在台灣法律上有效嗎?",
+    "should_trigger": false
+  },
+  {
+    "query": "我跟男朋友每次吵架他都冷戰好幾天, 我到底要怎麼做才能贏回主導權",
+    "should_trigger": false
+  },
+  {
+    "query": "幫我把孫子兵法始計篇第一段翻成英文, 要保留古文的感覺, 不要太白話",
+    "should_trigger": false
+  },
+  {
+    "query": "我是國中歷史老師, 想設計一堂 45 分鐘的課介紹春秋戰國的兵家思想, 給我教案大綱跟一個課堂活動",
+    "should_trigger": false
+  }
+]

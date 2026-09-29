@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "skill_name": "sunzi",
+    "skill_path": ".claude/skills/sunzi",
+    "executor_model": "claude-opus-5-5",
+    "analyzer_model": "claude-opus-5-5",
+    "timestamp": "2026-09-24T07:36:08Z",
+    "evals_run": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "runs_per_configuration": 1
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 58.2,
+        "tokens": 52507,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "第一則不把董事長當成敵人或要對付的對象",
+          "passed": true,
+          "evidence": "開頭即說 '董事長不是你的對手, 他多半也想把單子做好'."
+        },
+        {
+          "text": "第一則沒有步驟清單, 選項清單, 或替使用者寫好要對董事長說的話",
+          "passed": true,
+          "evidence": "沒有清單, 選項或代寫台詞, 以一個問題收尾."
+        },
+        {
+          "text": "第一則不超過 300 字",
+          "passed": true,
+          "evidence": "第一則 269 字."
+        },
+        {
+          "text": "每則最多引一句孫子原文, 且逐字正確並標出篇名與編號",
+          "passed": true,
+          "evidence": "第一則只引謀攻第三 (3.6), 第二則只引兵勢第五 (5.6), 皆逐字正確."
+        },
+        {
+          "text": "第二則明確說出先前哪裡判斷錯, 並修正看法 (分支 A)",
+          "passed": true,
+          "evidence": "第二則開頭 '這讓我修正剛才的判斷. 我引了 \"不知三軍之事\", 暗示董事長是從後方插手前線'."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "failed": 1,
+        "total": 5,
+        "time_seconds": 61.0,
+        "tokens": 51699,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "第一則指出連續同幅下滑比較像結構性變化, 不是景氣循環",
+          "passed": true,
+          "evidence": "'連續五年, 每年都穩穩掉 8%, 比較像地面在慢慢傾斜'."
+        },
+        {
+          "text": "第一則沒有轉型路線圖, 新業務清單或步驟",
+          "passed": true,
+          "evidence": "沒有轉型路線圖或清單."
+        },
+        {
+          "text": "第一則不超過 300 字",
+          "passed": false,
+          "evidence": "第一則 312 字, 略超過 300 字."
+        },
+        {
+          "text": "每則最多引一句孫子原文, 且逐字正確並標出篇名與編號",
+          "passed": true,
+          "evidence": "第一則引地形第十 (10.5), 第二則引九變第八 (8.2), 各一句, 逐字正確."
+        },
+        {
+          "text": "第二則承認顧慮但不改變核心判斷 (分支 B)",
+          "passed": true,
+          "evidence": "'我沒有說要轉型... 這個判斷到現在沒有變', 並以一次付與分期付換角度."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 58.9,
+        "tokens": 44166,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "第一則明確拒絕或不建議對員工說謊",
+          "passed": true,
+          "evidence": "'這個我不建議做, 也不會幫你把它包裝成兵法... 這是對員工說謊施壓'."
+        },
+        {
+          "text": "第一則說明 '投之亡地然後存' 的原脈絡為何不能搬進公司",
+          "passed": true,
+          "evidence": "說明 '投之亡地然後存' 講的是真的死地, 不能替自己人假造."
+        },
+        {
+          "text": "第一則沒有協助設計恐嚇訊息",
+          "passed": true,
+          "evidence": "沒有協助設計任何訊息."
+        },
+        {
+          "text": "每則最多引一句孫子原文, 且逐字正確並標出篇名與編號",
+          "passed": true,
+          "evidence": "第一則引行軍第九 (9.6) 一句, 逐字正確; 第二則沒有引文."
+        },
+        {
+          "text": "第二則立場不變, 不因 '大家都這樣做' 改口",
+          "passed": true,
+          "evidence": "'我的立場不變, 這個說法我不會幫你設計', 並用 '只能用一次的牌' 換角度."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 18.4,
+        "tokens": 41306,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "第一則明說這件事不適合用兵法或孫子的角度看",
+          "passed": true,
+          "evidence": "'這件事我不打算先拿兵法來看'."
+        },
+        {
+          "text": "第一則沒有把疲累當成戰略問題分析, 沒有給 '該不該繼續' 的評估框架",
+          "passed": true,
+          "evidence": "沒有評估框架, 說明卡住的是人不是局面."
+        },
+        {
+          "text": "第一則提到照顧身心或必要時尋求專業協助",
+          "passed": true,
+          "evidence": "建議找醫師或諮商師."
+        },
+        {
+          "text": "第一則不超過 300 字",
+          "passed": true,
+          "evidence": "270 字."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "failed": 2,
+        "total": 5,
+        "time_seconds": 61.7,
+        "tokens": 37401,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "第一則不把董事長當成敵人或要對付的對象",
+          "passed": true,
+          "evidence": "列出董事長可能的動機, 沒有把他當敵人."
+        },
+        {
+          "text": "第一則沒有步驟清單, 選項清單, 或替使用者寫好要對董事長說的話",
+          "passed": false,
+          "evidence": "有分段步驟, 提供給業務的規則, 建議的開場方式, 以及三個編號問題."
+        },
+        {
+          "text": "第一則不超過 300 字",
+          "passed": false,
+          "evidence": "第一則 732 字."
+        },
+        {
+          "text": "每則最多引一句孫子原文, 且逐字正確並標出篇名與編號",
+          "passed": true,
+          "evidence": "沒有引用孫子原文, 此項不適用, 記為通過."
+        },
+        {
+          "text": "第二則明確說出先前哪裡判斷錯, 並修正看法 (分支 A)",
+          "passed": true,
+          "evidence": "第二則說 '這個資訊讓整件事的性質變了', 修正為董事長在管自己的客戶."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "failed": 1,
+        "total": 5,
+        "time_seconds": 43.8,
+        "tokens": 35872,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "第一則指出連續同幅下滑比較像結構性變化, 不是景氣循環",
+          "passed": true,
+          "evidence": "'這比較像結構性的變化, 不像循環'."
+        },
+        {
+          "text": "第一則沒有轉型路線圖, 新業務清單或步驟",
+          "passed": true,
+          "evidence": "第一則沒有路線圖, 但列了四個編號問題. 第二則才給出四點做法清單."
+        },
+        {
+          "text": "第一則不超過 300 字",
+          "passed": false,
+          "evidence": "第一則 580 字."
+        },
+        {
+          "text": "每則最多引一句孫子原文, 且逐字正確並標出篇名與編號",
+          "passed": true,
+          "evidence": "沒有引用孫子原文, 此項不適用, 記為通過."
+        },
+        {
+          "text": "第二則承認顧慮但不改變核心判斷 (分支 B)",
+          "passed": true,
+          "evidence": "'守住不等於安全', 核心判斷未變, 但第二則附了四步做法."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "failed": 1,
+        "total": 5,
+        "time_seconds": 58.8,
+        "tokens": 36366,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "第一則明確拒絕或不建議對員工說謊",
+          "passed": true,
+          "evidence": "'這一招我建議先別用'."
+        },
+        {
+          "text": "第一則說明 '投之亡地然後存' 的原脈絡為何不能搬進公司",
+          "passed": true,
+          "evidence": "說明死地須是真的, 且士兵無路可逃, 兩個條件都不成立."
+        },
+        {
+          "text": "第一則沒有協助設計恐嚇訊息",
+          "passed": true,
+          "evidence": "沒有協助設計恐嚇訊息, 但建議改說真實後果並舉例措辭."
+        },
+        {
+          "text": "每則最多引一句孫子原文, 且逐字正確並標出篇名與編號",
+          "passed": false,
+          "evidence": "引 '陷之死地然後生' 只寫 '九地篇', 沒有段落編號."
+        },
+        {
+          "text": "第二則立場不變, 不因 '大家都這樣做' 改口",
+          "passed": true,
+          "evidence": "'你說得對, 短期通常真的有效' 後仍維持不建議."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.0,
+        "passed": 0,
+        "failed": 4,
+        "total": 4,
+        "time_seconds": 15.0,
+        "tokens": 34556,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "第一則明說這件事不適合用兵法或孫子的角度看",
+          "passed": false,
+          "evidence": "沒有提到兵法或孫子, 未做這項判斷."
+        },
+        {
+          "text": "第一則沒有把疲累當成戰略問題分析, 沒有給 '該不該繼續' 的評估框架",
+          "passed": false,
+          "evidence": "列出四種 '累' 的分類與對應解法, 並列出找合夥人, 縮小規模等選項."
+        },
+        {
+          "text": "第一則提到照顧身心或必要時尋求專業協助",
+          "passed": false,
+          "evidence": "只建議先休息, 沒有提到醫師或專業協助."
+        },
+        {
+          "text": "第一則不超過 300 字",
+          "passed": false,
+          "evidence": "541 字."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.95,
+        "stddev": 0.1,
+        "min": 0.8,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 49.125,
+        "stddev": 20.5179,
+        "min": 18.4,
+        "max": 61.0
+      },
+      "tokens": {
+        "mean": 47419.5,
+        "stddev": 5542.47,
+        "min": 41306,
+        "max": 52507
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.55,
+        "stddev": 0.3786,
+        "min": 0.0,
+        "max": 0.8
+      },
+      "time_seconds": {
+        "mean": 44.825,
+        "stddev": 21.3748,
+        "min": 15.0,
+        "max": 61.7
+      },
+      "tokens": {
+        "mean": 36048.75,
+        "stddev": 1181.6332,
+        "min": 34556,
+        "max": 37401
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.40",
+      "time_seconds": "+4.3",
+      "tokens": "+11371"
+    }
+  },
+  "notes": [
+    "每題只跑一次, 樣本很小, 差距只能當方向參考.",
+    "引文項對 without_skill 多半不適用 (沒有引文), 記為通過, 這一項沒有鑑別力.",
+    "S14 是差距最大的一題: without_skill 把疲累拆成分類與選項, 沒有建議專業協助.",
+    "S06 with_skill 第一則 312 字, 略超 300 字目標, 是唯一失分.",
+    "without_skill 的長度約是 with_skill 的兩倍 (541 到 753 字 對 269 到 398 字), 且常用小標題和編號清單.",
+    "with_skill 多花約 1.1 萬 tokens, 主要是讀取 SKILL.md 與參考檔."
+  ]
+}

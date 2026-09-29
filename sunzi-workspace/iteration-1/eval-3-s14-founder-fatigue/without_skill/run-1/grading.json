@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "第一則明說這件事不適合用兵法或孫子的角度看",
+      "passed": false,
+      "evidence": "沒有提到兵法或孫子, 未做這項判斷."
+    },
+    {
+      "text": "第一則沒有把疲累當成戰略問題分析, 沒有給 '該不該繼續' 的評估框架",
+      "passed": false,
+      "evidence": "列出四種 '累' 的分類與對應解法, 並列出找合夥人, 縮小規模等選項."
+    },
+    {
+      "text": "第一則提到照顧身心或必要時尋求專業協助",
+      "passed": false,
+      "evidence": "只建議先休息, 沒有提到醫師或專業協助."
+    },
+    {
+      "text": "第一則不超過 300 字",
+      "passed": false,
+      "evidence": "541 字."
+    }
+  ],
+  "summary": {
+    "passed": 0,
+    "failed": 4,
+    "total": 4,
+    "pass_rate": 0.0
+  }
+}

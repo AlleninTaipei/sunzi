@@ -1,0 +1,45 @@
+{
+  "reviews": [
+    {
+      "run_id": "eval-0-s03-chairman-override-with_skill-run-1",
+      "feedback": "很好",
+      "timestamp": "2026-09-24T07:45:35.278Z"
+    },
+    {
+      "run_id": "eval-0-s03-chairman-override-without_skill-run-1",
+      "feedback": "",
+      "timestamp": "2026-09-24T07:45:35.278Z"
+    },
+    {
+      "run_id": "eval-1-s06-printing-decline-with_skill-run-1",
+      "feedback": "非常好",
+      "timestamp": "2026-09-24T07:45:35.278Z"
+    },
+    {
+      "run_id": "eval-1-s06-printing-decline-without_skill-run-1",
+      "feedback": "",
+      "timestamp": "2026-09-24T07:45:35.278Z"
+    },
+    {
+      "run_id": "eval-2-s12-fake-layoff-with_skill-run-1",
+      "feedback": "很好",
+      "timestamp": "2026-09-24T07:45:35.278Z"
+    },
+    {
+      "run_id": "eval-2-s12-fake-layoff-without_skill-run-1",
+      "feedback": "",
+      "timestamp": "2026-09-24T07:45:35.278Z"
+    },
+    {
+      "run_id": "eval-3-s14-founder-fatigue-with_skill-run-1",
+      "feedback": "非常正確",
+      "timestamp": "2026-09-24T07:45:35.278Z"
+    },
+    {
+      "run_id": "eval-3-s14-founder-fatigue-without_skill-run-1",
+      "feedback": "",
+      "timestamp": "2026-09-24T07:45:35.278Z"
+    }
+  ],
+  "status": "complete"
+}

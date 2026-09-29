@@ -1,0 +1,22 @@
+Evaluating: 用孫子兵法 "算局面" 的方式, 陪經營者看清一個商業決定卡在哪裡: 該不該打, 能不能打, 代價多大. 它給一個沒想到的角度, 附逐字查證的原文, 並檢查越界手段與法規風險, 這些是直接回答時容易漏掉的, 所以遇到下列情況請先載入本技能再回答. 經營者, 創辦人或主管為自己公司的決定猶豫, 不安, 生氣或想反擊時: 對手降價, 挖角, 抹黑或挑釁; 大客戶, 通路或供應商施壓; 董事會或投資人催擴張, 成長快但現金緊; 新創面對大廠; 要不要進新市場, 併購, 合資讓股; 本業衰退要守還是轉. 不論中英文, 有沒有提到孫子都適用. 提到孫子兵法, 兵法, 商場如戰場, 知彼知己且談的是經營時一定要用, 包括想用兵法合理化越界手段. Also use it for English requests from business owners weighing a competitive, pricing, client, channel or growth decision. 不用於: 財務計算或報表, 合約法條解讀, 古文翻譯或考據, 教案, 感情與家庭問題, 以及明確要求流程, 範本或文案的請求.
+Results: 17/20 passed
+  [PASS] rate=1/2 expected=True: 我們是做冷凍水餃的中小企業, 最近某大賣場通路要我們多給 8% 通路費, 不給就下架. 那個通路占我們營收快四成, 我很猶豫要不要硬起來.
+  [FAIL] rate=0/2 expected=True: 競爭對手上個月挖走我們兩個業務主管, 連帶帶走幾個客戶. 我現在超想也去挖他們的人, 讓他們嚐嚐看這種感覺
+  [PASS] rate=1/2 expected=True: 我是營運長. 老闆想明年進軍日本市場, 可是我們連台灣北部都還沒站穩, 我覺得怪怪的但講不出具體哪裡不對
+  [PASS] rate=1/2 expected=True: 用孫子兵法幫我想一下: 我們的記帳 app 被一家大廠直接抄了核心功能, 要打官司還是專心繼續做產品?
+  [PASS] rate=1/2 expected=True: Our 8-person design agency just lost our biggest retainer client to a 
+  [FAIL] rate=0/2 expected=True: 公司營收每年成長三成, 可是現金一直很緊. 董事會要我明年再開 5 家分店, 我心裡有點不安
+  [FAIL] rate=0/2 expected=True: 商場如戰場啦, 對手最近一直在網路上酸我們的品牌, 還找人帶風向. 我是不是應該正面回擊?
+  [PASS] rate=1/2 expected=True: 我們跟上游原料廠談了半年的合資設廠, 簽約前對方突然要求 51% 股權. 不給可能就破局, 給了又怕以後什麼都他說了算
+  [PASS] rate=1/2 expected=True: 我們是地方型的連鎖洗衣店, 有 9 家. 聽說一個外資洗衣品牌明年要進台中, 資金很雄厚, 我有點慌
+  [PASS] rate=1/2 expected=True: 孫子說知彼知己, 但我根本不知道對手在想什麼. 他這個月降價 15%, 我要怎麼判斷該不該跟?
+  [PASS] rate=0/2 expected=False: 幫我算一下 Q3 的毛利率跟淨利率: 營收 1200 萬, 銷貨成本 870 萬, 營業費用 210 萬, 另外幫我做成表格
+  [PASS] rate=0/2 expected=False: 孫子兵法的作者到底是孫武還是孫臏? 我看到銀雀山出土兩本, 差別在哪裡
+  [PASS] rate=0/2 expected=False: 幫我寫一篇 LinkedIn 貼文, 主題是 '用孫子兵法做專案管理的 5 個技巧', 大概 500 字, 語氣專業一點
+  [PASS] rate=0/2 expected=False: 在玩全面戰爭三國, 開局選劉備, 前 30 回合要先打誰比較好? 我每次都被曹操推平
+  [PASS] rate=0/2 expected=False: 下週要面試產品經理, 面試官可能會問 '講一次你跟其他部門起衝突的經驗', 幫我準備一個 STAR 格式的回答
+  [PASS] rate=0/2 expected=False: 我們公司下季要導入 OKR, 大概 80 個人. 幫我設計一套季度目標設定跟追蹤的流程, 包含時程表
+  [PASS] rate=0/2 expected=False: 這份經銷合約第 12 條寫 '乙方違約時應給付合約總金額三倍之懲罰性違約金', 這樣在台灣法律上有效嗎?
+  [PASS] rate=0/2 expected=False: 我跟男朋友每次吵架他都冷戰好幾天, 我到底要怎麼做才能贏回主導權
+  [PASS] rate=0/2 expected=False: 幫我把孫子兵法始計篇第一段翻成英文, 要保留古文的感覺, 不要太白話
+  [PASS] rate=0/2 expected=False: 我是國中歷史老師, 想設計一堂 45 分鐘的課介紹春秋戰國的兵家思想, 給我教案大綱跟一個課堂活動
